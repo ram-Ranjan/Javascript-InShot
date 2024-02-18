@@ -1,0 +1,4 @@
+const names ="Ranjan"
+const count= 30;
+
+console.log(names+count+" Value")
