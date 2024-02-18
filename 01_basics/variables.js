@@ -9,8 +9,9 @@ console.log(x)//By default " undefined " - node tells variable is not initialize
 var x=null;//It is telling a variable dont have a value (var is hoisted but initialization is inplace)
 
 firstName = "Ranju"
-
-console.table([firstName,x,accountEmail,accountId])
+let lastName
+name='Raju' //name is a depricated variable name
+console.table([firstName,name,x,accountEmail,accountId,lastName])
 
 /*
 Multiline comment
