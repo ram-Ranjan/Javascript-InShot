@@ -1,2 +1,0 @@
-const score = 333
-console.log(typeof score)
