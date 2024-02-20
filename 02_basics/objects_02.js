@@ -50,17 +50,41 @@ const users=[
 {}
 ]
 
-console.log(users[0])
+// console.log(users[0])
 
-console.log(fireshipUser)
+// console.log(fireshipUser)
 console.log()
 
-console.log(Object.keys(fireshipUser))//keys array
-console.log(Object.values(fireshipUser))//values array
-console.log(Object.entries(fireshipUser))//like map of java
+// console.log(Object.keys(fireshipUser))//keys array
+// console.log(Object.values(fireshipUser))//values array
+// console.log(Object.entries(fireshipUser))//like map of java
 
 
-console.log(fireshipUser.hasOwnProperty('name'))//prototypes
+// console.log(fireshipUser.hasOwnProperty('name'))//prototypes
+
+
+
+
+const course={
+    courseName:"Javascript with Ranjan",
+    price:"1999",
+    courseInstructor:"Ranjan ofcourse"
+
+}
+
+//console.log(course.courseInstructor)
+
+const {courseInstructor : inst} = course
+// {course}.Instructor
+
+// console.log(inst)
+
+//react - props
+// const navbar = ({company}) =>{//Destructuring of objects
+
+
+// }
+// navbar(company = "Ranjan")
 
 
 
