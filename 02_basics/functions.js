@@ -131,7 +131,8 @@ const impure =() =>{
 }
 
 const pure= (x) =>x**2;
-console.log(pure(4)) //NaN if function is called without param
+console.log(pure(4))
+ //NaN if function is called without param
 
 
 //Higher Order function -- 
@@ -152,6 +153,9 @@ setTimeout(haveFun,50)//callback function
 const arr = [1,2,3,4]
 
 const squared =[]
+
+console.log(arr)
+
 
 
 
